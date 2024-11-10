@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class='no-js' >
+	
+	<head>
+		
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+		<title>Shah Htet Naing</title>
+		
+		<!--[if lt IE 9]>
+		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		
+		<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.theme.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.transitions.css' >
+		<link rel='stylesheet' type='text/css' href='css/style.css' >
+		<link rel='stylesheet' type='text/css' href='css/color-default.css' >
+		
+		
+	</head>
+	
+	<body>
+		
+		
+		<!--close button-->
+		<a href='index.html' class='close-btn' >
+			<span></span>
+			<span></span>
+		</a>
+		<!--/close button-->
+		
+		
+		<!--preloader-->
+		<div id='preloader' >
+		
+			<div class='loader' >
+				<img src='img/load.gif' alt='symp' >
+			</div>
+			
+		</div>
+		<!--/preloader-->
+		
+		
+		<div id='wrapper' >
+			
+			<section class='single-work' >
+				
+				<div class='container' >
+					
+					
+					<div class='row' >
+						
+						<div class='col-md-8' >
+							
+							<img src='img/error/autoupdate.png' alt='symp' >
+						
+						</div>
+						
+						
+						<div class='col-md-4' >
+							
+							<ul class='work-info' >
+								
+								<li>
+									
+									<h4><i class='ion-ionic' ></i>Error</h4>
+									
+									<p>Microsoft 365 will not auto update</p>
+									
+								</li>
+								
+								<li>
+									
+									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
+									
+									<p>2024, March</p>
+									
+								</li>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+						
+						
+					</div>
+					
+					
+					<div class='work-content' >
+						
+						<div class='block' >
+							
+							<h4>Info</h4>
+							
+							<p>
+								Microsoft Office installations are set by default to automatically update when new updates are released. However, when viewing the Account section in the backstage, you may notice that updates are either disabled or the option to manage updates is unavailable or hidden. For instance, the figure below shows updates being disabled in the backstage view.
+							</p>
+							
+						</div>
+						
+						<div class='block row' >
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Challenge</h4>
+								
+								<p>
+									This issue occurs if updates have been manually disabled or are managed through Group Policy settings.
+								</p>
+								
+							</div>
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Solution</h4>
+								
+								<p>
+									Check is ther any other user sign in. If there is Sign out the user account and follow these steps.</br>
+1.    Start Registry Editor. To do this, take one of the following actions:</br>
+o    In Windows 10 or Windows 8, press the Windows key + X, select Run, type regedit in the Open box, and then press Enter.</br>
+o    In Windows 7 and Windows Vista, select Start, type regedit in the Start Search box, and then press Enter. If you are prompted for an administrator password or for confirmation, type the password, or select Allow.</br>
+2.    Locate and then select the following registry key:</br>
+Note: If this key does not exist in your Registry Editor, see How to add the registry key via policy below.</br>
+Microsoft 365 Apps for enterprise, Office LTSC 2021, Office 2019, and Office 2016</br>
+HKEY_LOCAL_MACHINE\software\policies\microsoft\office\16.0\common\OfficeUpdate</br>
+Office 2013</br>
+HKEY_LOCAL_MACHINE\software\Wow6432Node\microsoft\office\15.0\common\OfficeUpdate</br>
+3.    Examine the following registry values under the \OfficeUpdate key:</br>
+o    DWORD: EnableAutomaticUpdates</br>
+Values:</br>
+0 = automatic updates are disabled</br>
+1 = automatic updates are enabled</br>
+								</p>
+								
+							</div>
+							
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				
+			</section>
+			
+			
+			<div class='footer bg-lightgray section-block' >
+				
+				<div class='container' >
+					
+						<div class='row' >
+							
+							<div class='col-xs-6 text-left' >
+								<h4>Shah Htet Naing</h4>
+							</div>
+							
+							<div class='col-xs-6 text-right' >
+								<ul class='footer-social' >
+									<li>
+										<a href='https://www.facebook.com/mumdhu.kolaynaing/?viewas=100000686899395' >
+											<i class='ion-social-facebook' ></i>
+										</a>
+									</li>
+
+									<li>
+										<a href='www.linkedin.com/in/shah-htet-naing' >
+											<i class='ion-social-linkedin' ></i>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							
+						</div>
+					
+					
+				</div>
+				
+			</div>
+			
+			
+			
+		</div>
+		
+		<script src='js/jquery.min.js' ></script>
+		<script src='js/jquery.stellar.min.js' ></script>
+		<script src='js/modernizr.js' ></script>
+		<script src='js/owl.carousel.min.js' ></script>
+		<script src='js/jquery.shuffle.min.js' ></script>
+		<script src='js/jquery.magnific-popup.min.js' ></script>
+		<script src='js/validator.min.js' ></script>
+		<script src='js/smoothscroll.js' ></script>
+		<script src='js/script.js' ></script>
+		
+	</body>
+	
+</html>
