@@ -1,2 +1,2 @@
 # mywebsite
-I'm an IT enthusiast with a focus on web development and cloud solutions. I recently hosted my personal website using AWS S3 for static website hosting, leveraging its scalability, security, and cost-efficiency.
+I’m a cybersecurity professional with a strong passion for web development and cloud solutions. Alongside safeguarding digital spaces, I enjoy creating websites and have hosted my personal site using AWS S3 for a secure and efficient static website experience. I’m committed to exploring new technologies that merge security with innovative web solutions.
